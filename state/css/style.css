@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-shadow: #00000080 2px 3px 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.scene{
+    position: fixed;
+    z-index: -5;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+}
+.layer{
+    position: absolute;
+    z-index: -5;
+    left: -10%;
+    top: 0;
+    width: 110%;
+    height: 100%;
+}
+.layer__bg{
+    background: url(../img/sky-clouds1.jpg);
+    background-size: cover;
+}
+.layer__0{
+    background: url(../img/01.png);
+    background-size: cover;
+    height: 80%;
+    top: 20%;
+}
+.layer__1{
+    background: url(../img/Mountain3.png);
+    background-size: cover;
+    height: 80%;
+    top: 20%;
+    left: -50%;
+}
+.layer__2{
+    background: url(../img/Mountain2.png);
+    background-size: cover;
+    height: 40%;
+    top: 60%;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.header__title{
+    color: #e9e7e7;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 150px;
+    
+}
+
+.conteiner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(88, 60, 248);
+    /* margin-top: 40px; */
+}
+
+.main__btn{
+    /* height: 60px; */
+    /* width: 150px; */
+    border: none;
+    background-color: #d3fafaf8;
+    cursor: pointer;
+    box-shadow: #000000b7 3px 2px 4px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.offers__main{
+    height: 100vh;
+    width: 100%;
+    background-color: #292929d2;
+    padding: 20px;
+}
+
+.offers{
+    display: flex;
+    justify-content: center;
+}
+.box__content{
+    white-space: nowrap;
+}
+.box__content div {
+    display: inline-block;
+    border: 1px solid black;
+    height: 450px;
+    width:220px; 
+    background-color: #0c0b0ba2;
+    margin-left: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.offers__column{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+}
+.offer__title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.table__comment{
+    background-color: #e9e7e7d2;
+}
+
+footer{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(40deg, #7af8f8, #e9e7e7 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+   color: #fff; 
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   text-align: center;
+   text-shadow: #00000080 2px 3px 4px;
+}
